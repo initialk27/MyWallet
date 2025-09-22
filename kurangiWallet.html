@@ -27,7 +27,7 @@
 
     <script>
       function getWalletAwal() {
-        return parseInt(localStorage.getItem('walletSaldoAwal')) || 500000;
+        return parseInt(localStorage.getItem('walletSaldoAwal')) || 0;
       }
       function setWalletAwal(nominal) {
         localStorage.setItem('walletSaldoAwal', nominal);
@@ -73,3 +73,4 @@
     </script>
   </body>
 </html>
+
